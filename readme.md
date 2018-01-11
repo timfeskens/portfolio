@@ -1,22 +1,27 @@
-# How to set up the project
+# portfolio
 
- 1. Clone the project from `https://github.com/timfeskens/portfolio.git`
+> A Vue.js project
 
- 2. Install [node.js LTS (also known as npm)](https://nodejs.org/en/) on your pc if not already installed
+## Build Setup
 
- 3. Run `npm install` in the project root folder
- 
- **In order to manipulate the database you can use [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)**
- 
- 4. Install php 7.* ([download](http://php.net/downloads.php)) or install xampp or wamp for PHP only
- 
- 5. Install composer globally [download](https://getcomposer.org/)
- 
- 6. Run ``composer install`` in the project root folder
- 
- 7. Run `php artisan key:generate` in the project root folder
- 
- 8. Run `php artisan serve` in the root folder to start the webserver
- 
- 9. Run ``npm run watch`` to start browsersync and the project
- 
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
