@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <Main></Main>
   </div>
 </template>
 
 <script>
+import Main from '@/components/Main.vue';
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'Main': Main
+  }
 }
 </script>
 
@@ -19,5 +22,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 40px;
 }
 </style>
