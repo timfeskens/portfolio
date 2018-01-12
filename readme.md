@@ -10,8 +10,6 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-
 ```
 ## To use routing, see example: 
 
@@ -20,4 +18,10 @@ npm run dev
 
 <router-link to="/tim">Tim</router-link>
 <router-link to="/olaf">Olaf</router-link>
+```
+
+## Troubleshooting
+
+- try running npm i again
+- restart npm run dev
 
